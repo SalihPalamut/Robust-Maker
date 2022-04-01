@@ -1,17 +1,17 @@
 # ![Build Status](Images/SoSmart.png)
 
-#Türkçe
+# Türkçe
 
-- [Arduino IDE için Robust Maker kart paketi](#numaker-uno-board-package-for-arduino-ide)
+- [Arduino IDE için Robust Maker kart paketi](#arduino-ide-için-robust-maker-kart-paketi)
 - [Supported Boards & Features](#supported-boards--features)
-- [Board Package Installation Steps](#board-package-installation-steps)
+- [Paket Kurulum Adımları](#paket-kurulum-adımları)
 - [VCOM Driver Installation Steps (Optional for M032BT)](#vcom-driver-installation-steps-optional-for-m032bt)
 - [Compatible Versions of Arduino IDE](#compatible-versions-of-arduino-ide)
 - [Disclaimer](#disclaimer)
 - [Important Notice](#important-notice)
 
-# Robust Maker board package for Arduino IDE
-This repository contains the package descriptor for Robust Maker boards
+# Arduino IDE için Robust Maker kart paketi
+Bu depo, Robust Maker kart için ide tanımlayıcıyı içerir.
 
 # Supported Boards & Features
 
@@ -21,19 +21,19 @@ This repository contains the package descriptor for Robust Maker boards
 | **NUC240**     | ✔️                |  ❌  | ❌                                               |
 
 
-# Board Package Installation Steps
+# Paket Kurulum Adımları
 1.  https://www.arduino.cc/en/Main/Software Arduio IDE indirilip Kurulur.
 2. Arduino yazılımı çift tıkla çalıştırılır, ardından **Dosya->Terçihler** seçilir.
 ![1](Images/1.png)
-3. Paste following URL to 'Additional Boards Manager URLs' input field: 
+3. Aşağıdaki URL'yi 'Ek Pano Yönetici URL'leri' giriş alanına yapıştırın:
 ![2](Images/2.png)
 `https://raw.githubusercontent.com/SalihPalamut/Robust-Maker/main/package_robust_index.json`
 ![3](Images/3.png)
-4. Under **Tools->Board->Boards Manger**, 
+4. Under **Araçlar->Kart->Kart Yöneticisi**, 
 ![4](Images/4.png)
-search `Robust Maker`, click **Install**
+`Robust Maker` aranır, **Kur** işlemi seçilir.
 ![5](Images/5.png)
-5. You can now select Robust Maker and install it in Arduino IDE.
+5. Artık Robust Maker'ı seçebilir ve Arduino IDE'de kullanabilirsiniz.
 
 # VCOM Driver Installation Steps (Optional for M032BT)
 The Virtual COM (VCOM) interface requires a VCOM driver to be installed on PC first. 
@@ -77,9 +77,9 @@ trademarks of products and companies mentioned in this datasheet belong to their
 owners.
 
 
-**Copyright (C) 2021 SoSmart Technology Corp. All rights reserved**
+**Kopya (C) 2022 SoSmart Technology Corp. All rights reserved**
 
-#English
+# English
 
 - [Robust Maker board package for Arduino IDE](#numaker-uno-board-package-for-arduino-ide)
 - [Supported Boards & Features](#supported-boards--features)
@@ -156,4 +156,4 @@ trademarks of products and companies mentioned in this datasheet belong to their
 owners.
 
 
-**Copyright (C) 2021 SoSmart Technology Corp. All rights reserved**
+**Copyright (C) 2022 SoSmart Technology Corp. All rights reserved**
