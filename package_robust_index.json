@@ -2,7 +2,7 @@
     "packages": [
         {
             "help": {
-                "online": "http://www.sosmart.co.uk"
+                "online": "http://www.so-smart.co.uk"
             },
             "maintainer": "SoSmart",
             "name":"sosmart",
@@ -29,7 +29,7 @@
                 }
             ],
             "tools": [],
-            "websiteURL": "http://www.sosmart.co.uk"
+            "websiteURL": "http://www.so-smart.co.uk"
         }
     ]
 }
