@@ -1,0 +1,35 @@
+{
+    "packages": [
+        {
+            "help": {
+                "online": "http://www.sosmart.co.uk"
+            },
+            "maintainer": "SoSmart",
+            "name":"sosmart",
+            "platforms": [
+                {
+                  "name": "Robust Maker",
+                  "architecture": "nuvoton",
+                  "version": "1.0.0",
+                  "category": "Arduino",
+                  "url": "https://github.com/SalihPalamut/Robust-Maker/releases/download/Arduino/Robust_Maker_Arduino.zip",
+                  "archiveFileName": "Robust_Maker_Arduino.zip",
+                  "checksum": "SHA-256:f5c6223441bf15861d68e1dd6bcd953ab7fe2d7b8a188a98678851c8c723d7f2",
+                  "size": "25644269 ",
+                  "boards": [
+                    {"name": "Robust Maker"}
+                  ],
+                  "toolsDependencies": [
+                    {
+                      "packager": "arduino",
+                      "name": "arm-none-eabi-gcc",
+                      "version": "4.8.3-2014q1"
+                    }
+                  ]
+                }
+            ],
+            "tools": [],
+            "websiteURL": "http://www.sosmart.co.uk"
+        }
+    ]
+}
