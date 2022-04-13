@@ -1,19 +1,24 @@
 # ![Build Status](Images/SoSmart.png)
-
+- [English](#english)
 # Türkçe
 
 - [Arduino IDE için Robust Maker kart paketi](#arduino-ide-için-robust-maker-kart-paketi)
-- [Supported Boards & Features](#supported-boards--features)
+- [Desteklenen Kartlar ve Özellikleri](#desteklenen-kartlar-ve-özellikleri)
 - [Paket Kurulum Adımları](#paket-kurulum-adımları)
-- [VCOM Driver Installation Steps (Optional for M032BT)](#vcom-driver-installation-steps-optional-for-m032bt)
-- [Compatible Versions of Arduino IDE](#compatible-versions-of-arduino-ide)
-- [Disclaimer](#disclaimer)
-- [Important Notice](#important-notice)
+- [Arduino IDE Uyumlu Sürümler](#arduino-ide-uyumlu-sürümler)
+- [Sorumluluk Reddi](#sorumluluk-reddi)
+- [Önemli Uyarı](#önemli-uyarı)
 - [Geliştieme Kartı](#geliştirme-kartı)
+- - [Kapsam](#kapsam)
+- - [Ürün Parametreleri](#ürün-parametreleri)
+- - [Mekanik](#mekanik)
+- - [Pin Açıklamaları](#pin-açıklamaları)
+- - [Geliştirme Kartı Pin Şeması](#geliştirme-kartı-pin-şeması)
+- - [Genel Bakış](#genel-bakış)
 # Arduino IDE için Robust Maker kart paketi
 Bu depo, Robust Maker kart için ide tanımlayıcıyı içerir.
 
-# Supported Boards & Features
+# Desteklenen Kartlar ve Özellikleri
 
 | NuMaker Kartları | Zengin Çevresel Birimler |USB Port Desteği | Debugger |
 | -------------- | ---------------- |---------| ----------------------------------------------- |
@@ -35,53 +40,33 @@ Bu depo, Robust Maker kart için ide tanımlayıcıyı içerir.
 ![5](Images/5.png)
 5. Artık Robust Maker'ı seçebilir ve Arduino IDE'de kullanabilirsiniz.
 
-# VCOM Driver Installation Steps (Optional for M032BT)
-The Virtual COM (VCOM) interface requires a VCOM driver to be installed on PC first. 
-The driver "Nu-Link_USB_Driver 1.x.exe" can be found at: http://www.nuvoton.com/opencms/resource-download.jsp?tp_GUID=SW0520150729202535
-
-1. Execute "Nu-Link_USB_Driver 1.x.exe" after the USB cable is un-plugged.
-2. Follow the steps of installation wizard to select setup language and installation location.
-3. Plug in USB cable after driver installation complete.
-4. Connect the Robust Maker with PC using a USB cable. If the driver is successfully installed, the Windows shall find a new device and then automatically find the correct driver. A virtual COM port named "SoSmart Virtual Com Port" can be found in "Device Manager".
-
-# Compatible Versions of Arduino IDE
+# Arduino IDE Uyumlu Sürümler
 * 1.8.15
 * 1.8.10
 * 1.8.8
 * 1.8.5
 
-# Disclaimer
-The Software is furnished "AS IS", without warranty as to performance or results, and
-the entire risk as to performance or results is assumed by YOU. SoSmart disclaims all
-warranties, express, implied or otherwise, with regard to the Software, its use, or
-operation, including without limitation any and all warranties of merchantability, fitness
-for a particular purpose, and non-infringement of intellectual property rights.
+# Sorumluluk Reddi
+Yazılım, performans veya sonuçlara ilişkin garanti olmaksızın "OLDUĞU GİBİ" sunulur ve performans veya sonuçlara ilişkin tüm risk "SİZE" aittir.
+SoSmart, satılabilirlik, belirli bir amaca uygunluk ve fikri mülkiyet haklarının ihlal edilmemesine ilişkin tüm garantiler 
+dahil ancak bunlarla sınırlı olmamak üzere Yazılım, kullanımı veya işletimi ile ilgili açık, ima edilen veya başka türlü tüm garantileri reddeder.
 
-# Important Notice
-SoSmart Products are neither intended nor warranted for usage in systems or equipment,
-any malfunction or failure of which may cause loss of human life, bodily injury or severe
-property damage. Such applications are deemed, "Insecure Usage".
+# Önemli Uyarı
+SoSmart Ürünleri, herhangi bir arıza veya arızanın insan yaşamının kaybına, bedensel yaralanmaya veya ciddi maddi hasara neden olabilecek sistemlerde veya ekipmanlarda kullanılması amaçlanmamıştır veya bu ürünler için garanti verilmemektedir. Bu tür uygulamalar "Güvensiz Kullanım" olarak kabul edilir.
 
-Insecure usage includes, but is not limited to: equipment for surgical implementation,
-atomic energy control instruments, airplane or spaceship instruments, the control or
-operation of dynamic, brake or safety systems designed for vehicular use, traffic signal
-instruments, all types of safety devices, and other applications intended to support or
-sustain life.
+Güvenli olmayan kullanım şunları içerir, ancak bunlarla sınırlı değildir: cerrahi uygulama için ekipman, atom enerjisi kontrol aletleri, uçak veya uzay gemisi aletleri, araç kullanımı için tasarlanmış dinamik, fren veya güvenlik sistemlerinin kontrolü veya çalıştırılması, trafik sinyal aletleri, her türlü güvenlik cihazı ve yaşamı desteklemeyi veya sürdürmeyi amaçlayan diğer uygulamalar.
 
-All Insecure Usage shall be made at customer's risk, and in the event that third parties
-lay claims to SoSmart as a result of customer's Insecure Usage, customer shall indemnify
-the damages and liabilities thus incurred by SoSmart.
+Tüm Güvensiz Kullanımların riski müşteriye ait olacaktır ve müşterinin Güvensiz Kullanımı sonucunda üçüncü şahısların SoSmart üzerinde hak iddia etmesi durumunda, müşteri SoSmart'ın bu nedenle uğradığı zararları ve yükümlülükleri tazmin edecektir.
 
-Please note that all data and specifications are subject to change without notice. All the
-trademarks of products and companies mentioned in this datasheet belong to their respective
-owners.
+Lütfen tüm verilerin ve özelliklerin önceden haber verilmeksizin değiştirilebileceğini unutmayın. Bu veri sayfasında adı geçen tüm ürün ve şirketlerin ticari markaları ilgili sahiplerine aittir.
+
 # Geliştirme Kartı
 
-### 1. KAPSAM
+### Kapsam
 
 Bu döküman Geliştirme Kart'ının tanımını ve çalışma prensibini açıklar.
 
-### 2. ÜRÜN PARAMETRELERİ
+### Ürün Parametreleri
 
 -  Çalışma Gerilimi: DC +5V
 -  Çalışma Sıcaklığı:-40 ℃ ~ +105 ℃ 
@@ -99,13 +84,13 @@ Bu döküman Geliştirme Kart'ının tanımını ve çalışma prensibini açık
 - USB ve hassas zamanlama işlemi için harici 4~24 MHz yüksek hızlı kristal osilatör.
 - RTC işlevi ve düşük güç sistemi için harici 32.768 kHz düşük hızlı kristal osilatör.
 
-### 3. MEKANİK
+### Mekanik
 
 ![gkd](Images/gkd.png)
 ![gk3dön](Images/gk3dön.png)
 ![gk3darka](Images/gk3darka.png)
 
-### 4. PİN AÇIKLAMALARI
+### Pin Açıklamaları
 
 |Pin Numarası|Pin Adı|Pin Tipi|Açıklama|
 |------|------|------|------|
@@ -158,24 +143,21 @@ Bu döküman Geliştirme Kart'ının tanımını ve çalışma prensibini açık
 |47|PVss|P|PLL ground|
 |48|PB.8-STADC-TM0-CLKO|I/O-I-I/O-O|Genel amaçlı dijital I/O pini-ADC dahili tetikleme giriş pini-Timer0 olay sayacı girişi / geçiş çıkışı- Frekans bölücü clock çıkış pini|
 
-### 5. GELİŞTİRME KARTI PİN ŞEMASI
+### Geliştirme Kartı Pin Şeması
 
 ![gk1](Images/GK1.jpg)
 
-### GENEL BAKIŞ 
+### Genel Bakış 
 
-Geliştirme Kartı çevre ile etkileşime giren sistemler yapmada, sensörlerden gelen verileri kullanarak yapılacak uygulamalarda, akıllı ev sistemleri oluşturmada, hareketli nesneler tasarlama gibi birçok alanda kullanım özelliği gösterebilir. Prototiplemeye imkan sağlaması, çeşitli devrelerde rahatça kullanılabilmesi için gerekli pinler devre kartı sayesinde dışarıya alınmıştır. Jumper kablolar ile bağlantıları yapılabilir. Mikrodenetleyici olarak NUC240LD2AE kullanılmıştır.Detaylı bilgi için linkler incelenebilir.
-
-
+Geliştirme Kartı çevre ile etkileşime giren sistemler yapmada, sensörlerden gelen verileri kullanarak yapılacak uygulamalarda, akıllı ev sistemleri oluşturmada, hareketli nesneler tasarlama gibi birçok alanda kullanım özelliği gösterebilir. Prototiplemeye imkan sağlaması, çeşitli devrelerde rahatça kullanılabilmesi için gerekli pinler devre kartı sayesinde dışarıya alınmıştır. Jumper kablolar ile bağlantıları yapılabilir. Mikrodenetleyici olarak NUC240LD2AE kullanılmıştır.
 
 **Kopya (C) 2022 SoSmart Technology Corp. All rights reserved**
 
 # English
 
-- [Robust Maker board package for Arduino IDE](#numaker-uno-board-package-for-arduino-ide)
+- [Robust Maker Board Package for Arduino IDE](#robust-maker-board-package-for-arduino-ide)
 - [Supported Boards & Features](#supported-boards--features)
 - [Board Package Installation Steps](#board-package-installation-steps)
-- [VCOM Driver Installation Steps (Optional for M032BT)](#vcom-driver-installation-steps-optional-for-m032bt)
 - [Compatible Versions of Arduino IDE](#compatible-versions-of-arduino-ide)
 - [Disclaimer](#disclaimer)
 - [Important Notice](#important-notice)
@@ -204,15 +186,6 @@ This repository contains the package descriptor for Robust Maker boards
 search `Robust Maker`, click **Install**
 ![5](Images/5.png)
 5. You can now select Robust Maker and install it in Arduino IDE.
-
-# VCOM Driver Installation Steps (Optional for M032BT)
-The Virtual COM (VCOM) interface requires a VCOM driver to be installed on PC first. 
-The driver "Nu-Link_USB_Driver 1.x.exe" can be found at: http://www.nuvoton.com/opencms/resource-download.jsp?tp_GUID=SW0520150729202535
-
-1. Execute "Nu-Link_USB_Driver 1.x.exe" after the USB cable is un-plugged.
-2. Follow the steps of installation wizard to select setup language and installation location.
-3. Plug in USB cable after driver installation complete.
-4. Connect the Robust Maker with PC using a USB cable. If the driver is successfully installed, the Windows shall find a new device and then automatically find the correct driver. A virtual COM port named "SoSmart Virtual Com Port" can be found in "Device Manager".
 
 # Compatible Versions of Arduino IDE
 * 1.8.15
